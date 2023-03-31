@@ -1,0 +1,26 @@
+.p1{
+  color: blueviolet;
+  text-shadow: 3px 3px 2px red;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 800;
+}
+.a1{
+  float: right;
+  margin-left: 20px;
+}
+.p2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.div2{
+  font-size: 20px;
+}
+
+.span2{
+  color: orange;
+  text-decoration: underline;
+}
+.span1{
+  font-weight: 600;
+}

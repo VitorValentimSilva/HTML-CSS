@@ -1,0 +1,123 @@
+.titulo{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.paragrafo{
+  margin-left: 150px;
+  font-size: 19px;
+}
+
+.tabela1{
+  border: 1px solid black;
+  border-radius: 3px;
+  border-spacing: 4px;
+  margin-left: 120px;
+}
+
+.th1, .td1{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.cidades{
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.tabela2{
+  border: 1px ridge #DEDEDE;
+  border-radius: 1px;
+  border-spacing: 4px;
+  margin-left: 120px;
+}
+
+.th2{
+  border: 1px ridge #DEDEDE;
+  background-color: #00FF99;
+  border-radius: 3px;
+  font-weight: 900;
+}
+
+.td2{
+  border: 1px ridge #DEDEDE;
+  border-radius: 3px;
+  background-color: #C0C0C0;
+  text-align: center;
+}
+
+.td3{
+  font-weight: 700;
+  background-color: #008080;
+  border-radius: 3px;
+}
+
+.td4{
+  border: 1px ridge #DEDEDE;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.th3{
+  border: 1px ridge #DEDEDE;
+  border-radius: 3px;
+}
+
+.td5{
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px ridge #DEDEDE;
+  text-align: center;
+}
+
+.tdnomes{
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px ridge #DEDEDE;
+  background-color: #A8A8A8;
+}
+
+.tdnumeros{
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px ridge #DEDEDE;
+  background-color: #A8A8A8;
+  color: #729A72;
+  text-align: center;
+}
+
+.tdnomes2{
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px ridge #DEDEDE;
+  padding-right:120px;
+}
+
+.tdnumeros2{
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px ridge #DEDEDE;
+  color: #729A72;
+  text-align: center;
+}
+
+.tdnumeros3{
+  font-weight: 700;
+  border-radius: 3px;
+  border: 1px ridge #DEDEDE;
+  color: #FF6E6E;
+  text-align: center;
+}
+
+.tdnumeros4{
+  color: #FF6E6E;
+  font-weight: 700;
+  border: 1px ridge #DEDEDE;
+  border-radius: 3px;
+  background-color: #A8A8A8;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
