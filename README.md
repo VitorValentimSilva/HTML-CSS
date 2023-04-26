@@ -22,3 +22,7 @@
 <a href="https://vitorvalentimsilva.github.io/HTML-CSS/Exercicio09/" target="_blank">Exercício 09</a>
 
 <a href="https://vitorvalentimsilva.github.io/HTML-CSS/Exercicio10/" target="_blank">Exercício 10</a>
+
+<a href="https://vitorvalentimsilva.github.io/HTML-CSS/Exercicio11/" target="_blank">Exercício 11</a>
+
+<a href="https://vitorvalentimsilva.github.io/HTML-CSS/Exercicio12/" target="_blank">Exercício 12</a>
