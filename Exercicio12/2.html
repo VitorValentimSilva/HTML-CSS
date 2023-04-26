@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minicurrículo</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <h1>Formulário</h1>
+  <form action="3.html" autocomplete="on" method="post">
+    <fieldset>
+      <legend>Minicurrículo</legend>
+      <div>
+        <label for="inome">Nome: </label>
+        <input type="text" name="nome" id="inome" required minlength="8" maxlength="40" autocomplete="name" placeholder="Nome Completo">
+      </div>
+      <div>
+        <label for="iemail">E-mail: </label>
+        <input type="email" name="email" id="iemail" required placeholder="E-mail"
+        autocomplete="email">
+      </div>
+      <div>
+        <label for="itel">Telefone: </label>
+        <input type="tel" name="tel" id="itel" required pattern="^\(\d{2})\d{5}-\d{4}$"
+        placeholder="(xx) xxxxx-xxxx">
+      </div>
+      <div>
+        <h2>Escolha as linguagens de programação que voce possui conhecimento e em qual parte da programacao voce prefere atuar:</h2>
+        <input type="checkbox" name="c" id="ic">
+        <label for="ic">C++</label>   
+        <input type="radio" name="op" id="ifull" class="i1" required>
+        <label for="ifull">Full-stack</label><br/>                  
+        <input type="checkbox" name="j" id="ij">
+        <label for="ij">Java</label>
+        <input type="radio" name="op" id="ifront" class="i1" required>
+        <label for="ifront">Front-end</label><br/>
+        <input type="checkbox" name="js" id="ijs">
+        <label for="ijs">JavaScript</label>
+        <input type="radio" name="op" id="iback" class="i1" required>
+        <label for="iback">Back-end</label><br/>
+        <input type="checkbox" name="p" id="ip">
+        <label for="ip" class="i2">Python</label>
+      </div>
+      <div>
+        <label for="itexto">Descreva suas experiências:</label><br/>  
+        <textarea name="texto" id="itexto" cols="30" rows="10" required></textarea>
+      </div>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Cancelar">
+    </fieldset>
+  </form>
+</body>
+</html>
