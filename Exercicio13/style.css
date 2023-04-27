@@ -1,0 +1,45 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  margin: 4%;
+}
+
+form{
+  text-align: center;
+}
+
+label{
+  margin: 2%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input{
+  margin-top: 2%;
+  height: 28px;
+  width: 20%;
+}
+
+textarea{
+  margin-top: 1%;
+}
+
+.i1{
+  font-size: 20px;
+  margin: 1%;
+  height: 27px;
+  width: 7%;
+}
+
+.i2{
+  background-color: red;
+}
+
+.i3{
+  color: blue;
+}

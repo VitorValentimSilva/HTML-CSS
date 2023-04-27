@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cadastro de Perfil de Cliente</h1>
+  <form action="2.html" method="get" autocomplete="on">
+    <div>
+      <label for="inome" class="i3">Nome: </label>
+      <input type="text" name="nome" id="inome" required placeholder="Informe o nome do cliente..." class="i2">
+    </div>
+    <div>
+      <label for="iarea" class="i3">Area de Interesse: </label>
+      <input type="text" name="area" id="iarea" required placeholder="Informe a área de interesse">
+    </div>
+    <div>
+      <label for="itel" class="i3">Celular: </label>
+      <input type="tel" name="tel" id="itel" required placeholder="(99)99999-9999" pattern="^\(\d{2}\)\d{5}-\d{4}$">
+    </div>
+    <br/>
+    <div>
+      <label for="icom">Comentarios: </label><br/>
+      <textarea name="com" id="icom" cols="30" rows="10" placeholder="Digite algo aqui..."></textarea>
+    </div>
+    <div>
+      <input type="reset" value="Limpar" class="i1">
+      <input type="submit" value="Gravar" class="i1">
+    </div>
+  </form>  
+</body>
+</html>
