@@ -1,0 +1,56 @@
+@media print {
+ 
+  *{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  main{
+    border: 2px solid black;
+  }
+
+  main > h1{
+    text-shadow: none;
+    color: black;
+  }
+
+  #pc{ display: none; }
+  #print{ display: block; }
+  #tab{ display: none; }
+  #cel{ display: none; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
+  body{
+    background: black url(../imagens/back-tablet.jpg) no-repeat;
+    background-position: center center;
+  }
+
+  #tab{ display: block; }
+  #cel{ display: none; }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1250px) {
+  
+  body{
+    background: black url(../imagens/back-pc.jpg) no-repeat;
+    background-position: center center;
+  }
+
+  #pc{ display: block; }
+  #tab{ display: none; }
+  #cel{ display: none; }
+}
+
+@media screen and (min-width: 1251px) {
+  
+  body{
+    background: black url(../imagens/back-tv.jpg) no-repeat;
+    background-position: center center;
+  }
+
+  #pc{ display: none; }
+  #tab{ display: none; }
+  #cel{ display: none; }
+  #tv{ display: block; }
+}
