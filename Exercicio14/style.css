@@ -1,0 +1,30 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+div{
+  margin-bottom: 1%;
+  
+}
+
+video{
+  z-index: -1;
+  position: absolute;
+  opacity: 0.3;
+}
+
+h1{
+  padding: 1%;
+  font-weight: 900;
+  margin-left: 5px;
+
+}
+
+input{
+  margin-left: 20px;
+}
+
+label{
+  margin-left: 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agente a revisao</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <video src="videoplayback.mp4" autoplay="true" muted loop></video>
+  
+  <h1>Agente a revisao do seu veiculo!</h1>
+
+  <form action="pag.html" autocomplete="on">
+
+    <div>
+      <label for="imodelo">Modelo<br/>
+        <input type="text" name="modelo" id="imodelo" autocomplete="on" required>
+      </label>
+      </div>
+
+    <div>
+      <label for="imarca">Marca<br/>
+        <input type="text" name="marca" id="imarca" autocomplete="on" required>
+      </label>
+    </div>
+
+    <div>
+      <label for="iano">Ano<br/>
+        <input type="text" name="ano" id="iano" autocomplete="on" required>
+      </label>
+    </div>
+
+    <div>
+      <label for="iki">Kilometragem atual<br/>
+        <input type="text" name="ki" id="iki" autocomplete="on" required>
+      </label>
+    </div>
+
+    <div>
+      <label for="idata">Data e hora<br/>
+        <input type="datetime-local" name="data" id="idata" required>
+      </label>
+    </div>
+
+    <input type="submit" value="Gravar">
+
+    <input type="reset" value="Limpar">
+
+  </form>
+
+</body>
+</html>
