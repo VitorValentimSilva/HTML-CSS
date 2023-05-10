@@ -1,0 +1,105 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+body{
+  background-color: rgb(218, 216, 216);
+}
+
+header{
+  background-color: rgb(146, 144, 144);
+}
+
+h1{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding: 2.4%;
+}
+
+i{
+  background-color: rgb(49, 49, 49);
+  color: white;
+  width: 92.5vw;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+i:hover{
+  color: black;
+  background-color: white;
+}
+
+#itens{
+  display: none;
+}
+
+li{
+  text-align: center;
+  color: white;
+}
+
+a{
+  display: block;
+  background-color: rgb(82, 79, 79);
+  text-decoration: none;
+  padding: 2.5%;
+  border-top: 2px solid gray;
+}
+
+a:hover{
+  background-color: gray;
+}
+
+article{
+  display: block;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.144);
+  width: 90vw;
+  background-color: white;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.212);
+  margin-top: 2.3%;
+}
+
+h2{
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 1.7%;
+  margin-top: 1.3%;
+  margin-left: 1.2%;
+}
+
+p{
+  text-align: justify;
+  text-indent: 1.7em;
+  padding-bottom: 2.6%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+@media screen and (min-width: 768px){
+  
+  #itens{
+    display: block;
+  }
+
+  .material-symbols-outlined{
+    display: none;
+  }
+
+  a{
+    display: inline-block;
+    padding: 1%;
+  }
+
+  article{
+    width: 55vw;
+  }
+
+}
