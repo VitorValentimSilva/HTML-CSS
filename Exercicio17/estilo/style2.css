@@ -1,0 +1,89 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+  body{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+  }
+
+  section{
+    width: 80vw;
+    height: 305px;
+  }
+
+  #imagem{
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+
+  #login{
+    float: right;
+    width: 70%;
+  }
+
+  h1{
+    font-size: 1.7em;
+  }
+  
+  p{
+    font-size: 1em;
+  }
+
+  form{
+    margin-top: 115px;
+    margin-left: 32%;
+    margin-right: 17px;
+  }
+
+  .campo > input{
+    transform: translateY(-13px);
+  }
+}
+
+@media screen and (min-width: 993px){
+
+  body{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+  }
+
+  section{
+    width: 950px;
+    height: 340px;
+  }
+
+  #imagem{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  #login{
+    float: left;
+    width: 50%;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+  
+  p{
+    font-size: 1.1em;
+  }
+
+  form{
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-right: 40px;
+  }
+
+  a{
+    width: 448px;
+  }
+
+  .campo{
+    width: 50%;
+  }
+
+  input[type=submit]{
+    width: 50%;
+  }
+}

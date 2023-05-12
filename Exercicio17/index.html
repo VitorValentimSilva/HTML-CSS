@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="estilo/style1.css">
+  <link rel="stylesheet" href="estilo/style2.css">
+</head>
+<body>
+  <main>
+    <section>
+      <div id="imagem"></div>
+
+      <div id="login">
+        <h1>Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça, login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+      </div>
+
+      <form action="entra.php" autocomplete="on">
+        
+        <div class="campo">
+          <span class="material-symbols-rounded" >person</span>
+          <input type="email" name="email" id="iemail" placeholder="Seu e-mail" required autocomplete="email">
+          <label for="iemail">Login</label>
+        </div>
+
+        <div class="campo">
+          <span class="material-symbols-rounded">vpn_key</span>
+          <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="8" maxlength="20">
+          <label for="isenha" class="entrar">Senha</label>
+        </div>
+        <input type="submit" value="Entrar">
+        <a href="esqueci.html">Esqueci a senha <span class="material-symbols-rounded">mail</span></a>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
