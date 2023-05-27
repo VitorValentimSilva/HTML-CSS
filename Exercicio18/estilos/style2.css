@@ -1,0 +1,90 @@
+@media screen and (min-width: 768px) and (max-width: 1099px){
+  body, html{
+    height: 98vh;
+    width: 98vw;
+  }
+
+  main{
+    height: 98vh;
+    width: 98vw;
+    height: 650px;
+  }
+
+  section{
+    width: 590px;
+    height: 570px;
+  }
+
+  #img{
+    margin-top: 3%;
+    height: 250px;
+    width: 250px;
+  }
+
+  p{
+    margin-bottom: 1%;
+  }
+
+  a{
+    margin: 6%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 1100px){
+  body, html{
+    height: 98vh;
+    width: 98vw;
+  }
+
+  main{
+    height: 98vh;
+    width: 98vw;
+    height: 620px;  
+  }
+
+  section{
+    margin-left: 0.5%;
+    width: 1055px;
+    height: 550px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.651);
+  }
+
+  #img{
+    margin-top: 1%;
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.61);
+    border: 1px solid rgba(0, 0, 0, 0.425);
+  }
+
+  h4{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-size: 28px;
+  }
+
+  p{
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #des{
+    text-indent: 3%;
+  }
+
+  a{
+    margin-left: 0%;
+    margin: 2%;
+  }
+
+  #anuncio{
+    background-image: url(../imagens/anuncio5.jpg);
+    height: 400px;
+    width: 1350px;
+    margin-left: 2.5%;
+  }
+}
