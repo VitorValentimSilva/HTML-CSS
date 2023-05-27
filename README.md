@@ -36,5 +36,3 @@
 <a href="https://vitorvalentimsilva.github.io/HTML-CSS/Exercicio16/" target="_blank">Exercício 16</a>
 
 <a href="https://vitorvalentimsilva.github.io/HTML-CSS/Exercicio17/" target="_blank">Exercício 17</a>
-
-<a href="https://vitorvalentimsilva.github.io/HTML-CSS/Exercicio18/" target="_blank">Exercício 18</a>
