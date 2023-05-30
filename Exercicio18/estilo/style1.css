@@ -109,19 +109,51 @@ h3{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  overflow-x: scroll;
+  overflow: scroll;
 }
 
 .box {
   flex: 0 0 auto;
   width: 50%;
-  height: 200px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
 }
 
-.box:nth-child(odd) {
-  background-color: orange;
+.box > img{
+  width: 90px;
+  height: 90px;
+  margin: 0%;
+  padding: 0%;
 }
 
-.box:nth-child(even) {
-  background-color: lightblue;
+h4{
+  text-align: center;
+}
+
+.box > p{
+  color: black;
+  font-size: 16px;
+  text-align: left;
+  padding: 15px;
+}
+
+#roda{
+  background-color: blue;
+  margin-top: 45px;
+  height: 20%;
+}
+
+h5{
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding-top: 45px;
+}
+
+#roda > p{
+  font-size: 16px;
 }

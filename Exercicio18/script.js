@@ -20,7 +20,3 @@ function menu(){
     clisair.style.paddingBottom = '10%'
   }
 }
-
-$(document).ready(function(){
-  $(".box").draggable();
-});
