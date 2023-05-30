@@ -103,7 +103,7 @@ h3{
   font-size: 16px;
 }
 
-#flex-container {
+.flex-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -195,8 +195,8 @@ h4{
   background: linear-gradient(145deg, #2a00e68f, #00ff2f8f);
   box-shadow:  5px 5px 6px #16006667,
              -5px -5px 6px #1900ff69;
-  width: 76%;
-  height: 570px;
+  width: 79%;
+  height: 600px;
   margin: auto;
 }
 
@@ -212,8 +212,67 @@ h4{
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
   background-color: blue;
   border-radius: 7px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.depoimento{
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
+}
+
+.depoimento > img{
+  width: 66px;
+  height: 65px;
+  padding: 18px;
+}
+
+.depoimento > p{
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+#contato{
+  margin-top: 50px;
+}
+
+#contato > h3{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input{
+  padding-left: 10px;
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.411);
+}
+
+#itexto{
+  height: 150px;
+}
+
+input[type="submit"]{
+  background-color: rgb(26, 26, 255);
+  color: white;
+}
+
+#roda{
+  background-color: rgb(26, 26, 255);
+  padding: 20px;
+  margin-top: 50px;
 }
