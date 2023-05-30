@@ -116,7 +116,7 @@ h3{
   flex: 0 0 auto;
   width: 50%;
   height: 300px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 35px;
   border: 1px solid rgba(0, 0, 0, 0.158);
   border-radius: 10px;
@@ -141,19 +141,29 @@ h4{
   padding: 15px;
 }
 
-#roda{
+#vamos{
   background-color: blue;
-  margin-top: 45px;
-  height: 20%;
-}
-
-h5{
-  font-size: 28px;
-  color: white;
+  margin-top: 65px;
   text-align: center;
-  padding-top: 45px;
+  padding-bottom: 40px;
 }
 
-#roda > p{
-  font-size: 16px;
+#vamos > h2{
+  font-size: 32px;
+}
+
+#vamos p{
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+#vamos > a{
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 32);
+  color: rgb(0, 0, 0);
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
