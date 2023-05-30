@@ -6,3 +6,122 @@
   font-family: 'Raleway', sans-serif;
 }
 
+body, html{
+  background-image: url(../imagens/HERO\ BACKGROUND@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 98vh;
+  width: 98vw;
+}
+
+h1{
+  font-weight: normal;
+  color: white;
+  padding-left: 20px;
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+span{
+  position: absolute;
+  left: 92%;
+  top: 4%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: white;
+  text-align: center;
+}
+
+.material-symbols-rounded{
+  display: none;
+}
+
+#itens{
+  display: none;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 25px;
+}
+
+li{
+  padding: 3%;
+}
+
+h2, p{
+  color: white;
+  text-align: center;
+  margin-left: 1px;
+}
+
+h2{
+  font-weight: normal;
+  padding-top: 40px;
+}
+
+img{
+  width: 480px;
+  height: 300px;
+  padding-top: 40px;
+  padding-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#logos{
+  margin-top: 3%;
+}
+
+#logos img{
+  height: 40%;
+  padding: 3%;
+  width: 25%;
+  max-width: 193px;
+  display: inline-block;
+}
+
+#pq{
+  text-align: center;
+  padding-top: 20px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+#expe{
+  color: black;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.box {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 200px;
+}
+
+.box:nth-child(odd) {
+  background-color: orange;
+}
+
+.box:nth-child(even) {
+  background-color: lightblue;
+}
