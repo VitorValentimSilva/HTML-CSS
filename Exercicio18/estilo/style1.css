@@ -218,6 +218,14 @@ h4{
   padding-bottom: 12px;
 }
 
+#poi{
+  color: black;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
+}
+
 .depoimento{
   flex: 0 0 auto;
   width: 60%;
@@ -275,4 +283,8 @@ input[type="submit"]{
   background-color: rgb(26, 26, 255);
   padding: 20px;
   margin-top: 50px;
+}
+
+#final{
+  display: none;
 }
