@@ -8,6 +8,7 @@ header{
   text-align: center;
   border: 2px solid black;
   height: 100px;
+  width: 98.3vw;
 }
 
 h1{
@@ -30,6 +31,7 @@ main{
   display: inline;
   float: left;
   border: 2px solid black;
+  width: 98.3vw;
 }
 
 #conteudo > h1{
@@ -66,17 +68,28 @@ textarea{
   margin-top: 8px;
   margin-right: 12px;
   resize: none; 
-  width: 462px;
+  width: 350px;
   height: 100px;
 }
 
 input[type="reset"]{
   margin-left: 12px;
-  margin-top: 8px;
+  margin-top: 12px;
   margin-right: 20px;
   padding: 6px;
 }
 
 input[type="submit"]{
   padding: 6px;
+}
+
+#menu{
+  border: 2px solid black;
+  display: inline;
+  float: right; 
+  width: 98.4vw;
+}
+
+#menu > h1{
+  margin-left: 25px;
 }
