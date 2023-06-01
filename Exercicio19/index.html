@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <title>Revisão</title>
+</head>
+<body>
+  <header>
+    <h1>Cabeçalho</h1><br>
+
+    <p>Revisão – HTML & CSS</p>
+  </header>
+
+  <main>
+    <div id="conteudo">
+      <h1>Conteúdo</h1>
+
+      <p>Cadastro do aluno para assistir um curso web:</p>
+
+      <form action="" autocomplete="on">
+        <label for="inome">Nome: </label>
+        <input type="text" name="nome" id="inome" required autocomplete="name"><br>
+
+        <label for="igenero">Gênero: </label>
+        <input type="radio" name="genero" id="igenero" value="Masculino"> Masculino 
+        <input type="radio" name="genero" id="igenero"> Feminino
+
+        <label for="icurso">Curso: </label>
+        <select name="curso" id="icurso" required>
+          <option value="ADS">ADS</option>
+          <option value="BCC">BCC</option>
+          <option value="BSI">BSI</option>
+        </select><br>
+
+        <label for="iqual">Qual curso deseja fazer:</label><br>
+        <input type="checkbox" name="qual" id="iqual" value="HTML 5"> HTML 5
+        <input type="checkbox" name="qual" id="iqual" value="CSS 3"> CSS 3
+        <input type="checkbox" name="qual" id="iqual" value="Web semântica"> Web semântica<br>
+
+        <label for="iobs">OBS: </label><br>
+        <textarea name="obs" id="iobs" cols="30" rows="10"></textarea><br>
+        
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Gravar">
+      </form>
+    </div>
+
+    <div>
+      <h1>Menu</h1>
+    </div>
+  </main>
+</body>
+</html>
