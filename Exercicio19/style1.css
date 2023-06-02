@@ -8,7 +8,7 @@ header{
   text-align: center;
   border: 2px solid black;
   height: 100px;
-  width: 98.3vw;
+  width: 98.4vw;
 }
 
 h1{
@@ -87,9 +87,104 @@ input[type="submit"]{
   border: 2px solid black;
   display: inline;
   float: right; 
-  width: 98.4vw;
+  width: 98.3vw;
 }
 
 #menu > h1{
   margin-left: 25px;
+}
+
+li{
+  margin-left: 40px;
+  padding-top: 25px;
+}
+
+li > a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+li > a:hover{
+  color: rgb(148, 148, 0);
+  text-decoration: underline;
+}
+
+h2{
+  padding-top: 80px;
+  text-align: center;
+  font-size: 28px;
+}
+
+h2 > a{
+  color: black;
+  text-decoration: none;
+}
+
+h2 > a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+#menu > p{
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  header{
+    height: 100px;
+    width: 94.7vw;
+    margin-left: 16px;
+  }
+
+  #conteudo{
+    margin-left: 15px;
+    width: 60vw;
+  }
+
+  #menu{
+    width: 34vw;
+  }
+
+  #menu > p{
+    padding-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1001px){
+  header{
+    height: 100px;
+    width: 96.3vw;
+    margin-top: 10px;
+    margin-left: 22px;
+  }
+
+  #conteudo{
+    width: 69vw;
+    margin-left: 21px;
+    padding-left: 20px;
+    
+  }
+
+  input[type="reset"]{
+    padding: 8px;
+  }
+  
+  input[type="submit"]{
+    padding: 8px;
+  }
+
+  #menu{
+    width: 25.6vw;
+  }
+
+  #menu > h2{
+    padding-top: 80px;
+  }
+
+  #menu > p{
+    padding-bottom: 49px;
+  }
 }
